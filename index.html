@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-
-   .centered-text {
-    position: fixed; /* Fixed position */
-    top: 50%; /* Centers vertically */
-    left: 50%; /* Centers horizontally */
-    transform: translate(-50%, -50%); /* Adjusts position to truly center */
-    color: white; /* Change text color for better visibility */
-    font-size: 10em; /* Adjust font size as needed */
-    text-align: center; /* Centers text within the div */
-   }
-   
-  body {
-            background-image: url('AKS-7.jpg');
-            background-size: cover; /* Adjusts the image to cover the entire area */
-            background-position: center; /* Centers the image */
-            background-repeat: no-repeat; /* Prevents the image from repeating */
-        }
-  
-</style>
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="centered-text">Rita<br>&<br>Irfan</vr></div> 
-  
+    <div id="landing" class="landing">
+        <h1 id="coupleNames">Jane & John</h1>
+        <h2 id="weddingDate">March 25, 2024</h2>
+        <button id="enterButton">Enter</button>
+    </div>
 
+    <div id="emerging" class="emerging">
+        <!-- This will be the new interface that emerges -->
+        <!-- Content for the next interface will go here later -->
+    </div>
+
+    <script>
+        document.getElementById("enterButton").addEventListener("click", function() {
+            document.getElementById("landing").style.transform = "translateY(-100%)";
+            document.getElementById("emerging").style.transform = "translateY(0)";
+        });
+    </script>
 </body>
 </html>
