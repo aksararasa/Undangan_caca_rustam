@@ -1,43 +1,5 @@
-body {
-    margin: 0;
-    overflow: hidden; /* Prevent scrolling during the transition */
-}
-
-.landing {
-    background-image: url('AKS-7.jpg'); /* Set your background image */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    transition: transform 0.5s ease; /* Smooth transition */
-}
-
-h1 {
-    font-size: 3em; /* Couple's names */
-    margin: 0;
-}
-
-h2 {
-    font-size: 2em; /* Date of the wedding */
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.7); /* Button background */
-    border: none;
-    border-radius: 5px;
-}
-
-.emerging {
-    height: 100vh;
-    background-color: #f0f0f0; /* Placeholder background for emerging interface */
-    transform: translateY(-100%); /* Start hidden */
-    transition: transform 0.5s ease; /* Smooth transition */
+#myDIV {
+  width: 300px;
+  height: 300px;
+  background-image: url("AKS-7.jpg");
 }
